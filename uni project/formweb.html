@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body class="bgbody1">
+    <div class="">
+        <nav class="navbar navbar-expand-md nav123"> 
+             <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/hamza.png" alt="logo" width="200px" height="60px" ></a>
+                 <button class="navbar-toggler btnnav" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                     <span class="navbar-toggler-icon "></span>
+                 </button>
+                 <div class="collapse navbar-collapse text-center settings" id="collapsenavbar">
+                      <ul class="navbar-nav ml-auto ">
+                         <li class="nav-item">
+                             <a href="index.html" class="nav-link ">Home</a>
+                         </li>
+                         <li class="nav-item">
+                            <a href="about.html" class="nav-link ">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                      </ul>
+                 </div>
+             </div>
+              
+        </nav>
+
+
+
+        <section class="container section123">
+            <h1 style="text-align: center ;">Web designing package</h1>
+            <form name="oredrform" class="form-group formset" action="winsert.php" method="POST">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="inputname">Your Name</label>
+                        <input type="text"  class="form-control" placeholder="Example" name="name" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="inputemail">Email address</label>
+                        <input type="email"  class="form-control" placeholder="abc@example.com" name="email"required>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-6">
+                    <label for="inputnumber">Phone number</label>
+                    <input type="text"  class="form-control" placeholder="+92**********" name="number"required>
+                </div>
+                <div class="col-sm-6">
+                <label for="selectcoun">Select your country</label>
+                <select class="form-control" placeholder="Select" name="country"required>
+                    <option>pakistan</option>
+                    <option>China</option>
+                    <option>USA</option>
+                    <option>India</option>
+                    <option>Bangladesh</option>
+                    <option>Afghanistan</option>
+                    <option>Argentina </option>
+                    <option>Armenia</option>
+                    <option>Australia</option>
+                    <option> Austria </option>
+                    <option>Azerbaijan</option>
+                    <option>Belgium</option>
+                    <option>Canada</option>
+                    <option>Denmark </option>
+                    <option>France</option>
+                    <option> French</option>
+                    <option>Germany</option>
+                    <option>Greece  </option>
+                    <option>Greenland </option>
+                    <option>UK</option>
+                    <option>Hong Kong</option>
+                    <option> Hungary </option>
+                    <option>Japan</option>
+                    <option>Macao </option>
+                    <option>Malaysia</option>
+                    <option>Maldives</option>
+                    <option>Mexico </option>
+                    <option>Nepal</option>
+                    <option>Netherlands </option>
+                    <option>New Zealand </option>
+                    <option>Oman </option>
+                    <option>State of Panama </option>
+                    <option>Philippines </option>
+                    <option> Poland  </option>
+                    <option>Qatar</option>
+                    <option>Romania</option>
+                    <option>Russian Federation</option>
+                    <option>Saudi Arabia </option>
+                    <option>Singapore </option>
+                    <option> South Africa</option>
+                    <option>Spain</option>
+                    <option>Sri Lanka   </option>
+                    <option>Sweden </option>
+                    <option>Switzerland </option>
+                    <option>Taiwan </option>
+                    <option> Thailand </option>
+                    <option>Turkey</option>
+                    <option>Uganda </option>
+                    <option>United Arab Emirates</option>
+                    <option>United Kingdom</option>
+                    <option> Uzbekistan</option>
+                    <option>Yemen</option>
+                    <option>Zambia </option>
+                    <option>Zimbabwe</option>
+                </select>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="inputcity">Your City</label>
+                    <input type="text"  class="form-control" placeholder="City" name="city"required>
+                </div>
+                <div class="col-sm-6">
+                    <label for="selectpkg">Select your package</label>
+                    <select class="form-control" placeholder="Select" name="package"required> 
+                        <option>Web designing</option>             
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="yourservices">What service you want</label>
+                    <input type="text" class="form-control" placeholder="Service" name="service"required>
+                </div>
+                <div class="col-sm-6">
+                    <label for="yourservices">Your budget</label>
+                    <input type="text" class="form-control" placeholder="Write your budget in $" name="budget"required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="yourservices">Information about your work</label>
+                    <textarea for="information" class="form-control" placeholder="About work" name="information"required></textarea>                    
+                </div>
+                <div class="col-sm-6">
+                    <label for="yourservices">Attach files or images</label>
+                    <input type="file" class="form-control" placeholder="file"  name="images">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="oddate">Order date</label>
+                    <input type="date" class="form-control" name="odate"required>                   
+                </div>
+                <div class="col-sm-6">
+                    <label for="dvdate">Delivery date</label>
+                    <input type="date" class="form-control" name="ddate"required>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <input type="submit" class="  buttonstform " value="Order placed">
+                
+              </div>
+            </form>
+            
+                
+        </section>                                      
+</body>
+</html>
